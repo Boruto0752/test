@@ -1,5 +1,5 @@
 ifeq ($(KSRC),)
-        KSRC := /usr/src/kernels/$(shell uname -r)
+        KSRC := /lib/modules/$(shell uname -r)/build
 endif
 
 obj-m += misc.o
