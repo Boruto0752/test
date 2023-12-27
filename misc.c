@@ -37,7 +37,7 @@
 #endif
 #endif
 
-MODULE_AUTHOR("Chetan Atole");
+MODULE_AUTHOR("Bhushan Jadhav");
 MODULE_LICENSE("GPL");
 
 static struct miscdevice misc_help;
